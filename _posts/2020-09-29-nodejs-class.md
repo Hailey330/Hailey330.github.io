@@ -1,11 +1,9 @@
 ---
-title: [Node.js] 알아가기
+title: Node.js 알아가기
 categories:
   - Programming
 tags:
   - Nodejs
-published: true
-description: ''
 ---
 
 # Node.js? 

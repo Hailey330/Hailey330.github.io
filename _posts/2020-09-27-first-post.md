@@ -1,11 +1,10 @@
 ---
-title: "github 블로그 시작하기"
-description: "Github Blog 서비스인 github.io 블로그를 시작하기로 했다!"
+title: GitHub 블로그 시작하기"
 categories:
  - test
 tags:
- - test 
- - post
+ - test
+published: false
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
