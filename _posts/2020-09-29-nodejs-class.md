@@ -1,11 +1,11 @@
 ---
-title: 1. Node.js 알아가기
+title: [Node.js] 알아가기
 categories:
-  - nodejs
+  - Programming
 tags:
-  - nodejs
+  - Nodejs
 published: true
-description: 'Node.js가 무엇인지, 왜 사용하는지에 대한 이야기'
+description: ''
 ---
 
 # Node.js? 
