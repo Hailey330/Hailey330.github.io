@@ -4,22 +4,22 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: "개발하는 홍차"
 subtitle:
 description:
-author: John Doe
+author: hongcha
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ko
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: "https://hailey330.github.io/"
+baseurl: 
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 5
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -58,6 +58,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
+  # _pages
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
       comments: true
 
 # Atom feed
@@ -119,7 +127,7 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
