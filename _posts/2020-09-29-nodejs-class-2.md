@@ -14,7 +14,7 @@ tags:
 # Number Data type, String Data type
 컴퓨터를 사용하는데 있어서 가장 중요한 점은 '데이터를 어떻게 처리할 것인가?' 입니다.   
 어떠한 데이터가 있는지, 각각의 데이터는 어떻게 처리해야 하는지에 대해서 자바스크립트 언어는 `Number`, `String`, `Boolean`, `Array` 등 형식을 지정해뒀습니다.
-<br/>
+<br/><br/>
 
 
 # 변수의 형식과 활용
@@ -23,7 +23,7 @@ tags:
 변수를 사용해야 하는 이유   
 1. 데이터의 이름을 붙여 가독성을 좋게 만들어 줍니다.   
 2. 변수를 이용해 중복되는 코드를 제거할 수 있습니다.   
-<br/>
+<br/><br/>
 
 
 # Template Literal
@@ -36,7 +36,7 @@ var letter = 'Dear ' + name + ' Hello! ' + name;
 // Template Literal
 var letter = `Dear ${name} Hello! ${name}`;
 ```
-<br/>
+<br/><br/>
 
 
 # 배열과 반복문
@@ -74,8 +74,7 @@ console.log(`total : ${total}`);
 출력 결과
 total : 452
 ```
-
-<br/>
+<br/><br/>
 
 
 # 함수의 입출력
@@ -108,7 +107,7 @@ function sum(first, second) {
 console.log(sum(2, 4)); 
 ```
 * return 을 사용하게 되면 함수의 출력과 동시에 종료됩니다. 
-<br/>
+<br/><br/>
 
 
 ***

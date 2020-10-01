@@ -17,6 +17,7 @@ NodeJs 는 구글 크롬의 **자바스크립트에 기반해 만들어진 플�
 
 
 이 핫한 JavaScript를 이용해서 멋진 웹 애플리케이션을 만들어봅시다!
+<br/><br/>
 
 
 # Node.js 를 사용하는 목적
@@ -34,21 +35,24 @@ NodeJs 는 자바스크립트 언어로 이루어져, 하나의 파일 안에 Ht
 
 Html 은 정적인 파일인데 비해 NodeJs 는 동적이라서 사용자와 정보를 주고 받기가 가능합니다.   
 컨텐츠에 대한 읽기 뿐만 아니라 쓰기, 수정, 삭제를 웹을 통해서 제공할 수 있으며, 사용자들이 직접 자신의 컨텐츠를 웹을 통해서 올릴 수 있습니다. 즉, NodeJs 를 이용함으로써 웹의 팽창이 실현됩니다.
+<br/><br/>
 
 
 # Node.js 설치하기
-> Web Browser | Html | Web Application   
-> Node.js Runtime | Node.js | Node.js Application
+Web Browser | Html | Web Application   
+Node.js Runtime | Node.js | Node.js Application
 
-Html 이 Web Application 으로 동작하기 위해서는 Web Brower 가 있어야 하는 것처럼, NodeJs 도 Runtime 을 필요로 하고, 자바스크립트를 작성해 Application 으로 동작합니다.    
-따라서 지금부터 NodeJs Runtime 을 설치해봅시다. 
+Html 이 Web Application 으로 동작하기 위해서는 Web Brower 가 있어야 하는 것처럼, NodeJs 도 Runtime 을 필요로 하고, 자바스크립트를 작성해 Application 으로 동작합니다.   
+
+
+지금부터 NodeJs Runtime 을 설치해봅시다. 
 
 
 1. [nodejs.org](http://nodejs.org/) 이동하기
 ![image](https://user-images.githubusercontent.com/57790541/94774498-ff019a80-03f8-11eb-8761-c7b18df91b3f.png)
 
 
-* 왼쪽과 오른쪽(최신 버전) 둘 다 사용하는데 문제없지만 왼쪽 버전이 좀 더 안정화된 버전이므로 다운로드합니다.
+왼쪽과 오른쪽(최신 버전) 둘 다 사용하는데 문제없지만 왼쪽 버전이 좀 더 안정화된 버전이므로 다운로드합니다.
 
 
 2. 다운로드 받은 파일 압축을 풀고 설치 진행하기
@@ -56,6 +60,7 @@ Html 이 Web Application 으로 동작하기 위해서는 Web Brower 가 있어�
 
 
 간단하게 설치가 완료되었으니, 이제부터 NodeJs 를 이용해 동적인 웹 페이지를 만들어봅시다.    
+<br/><br/>
 
 
 # Node.js 로 웹 서버 만들기
@@ -80,15 +85,17 @@ var app = http.createServer(function(request,response){
 });
 app.listen(3000);
 ```
+<br/><br/>
 
 
 # 앞으로의 공부 진행 방향 
 1. 필요한 자바스크립트 문법 알기
 2. Node.js 기능 배우기 
 3. Node.js Application 완성하기
+<br/><br/>
+
 
 ***
-
 ## 참고
 * [생활코딩 Node.js](https://opentutorials.org/course/3332)
 * [벨로퍼트 Node.js](https://velopert.com/133)
