@@ -13,11 +13,11 @@ tags:
 # 동기와 비동기 
 처리해야 할 일이 여러 개 있다고 가정해봅시다.   
 
-> Synchronous 동기적 방식
+### Synchronous 동기적 방식
 먼저 들어온 일을 처리하고 난 뒤에 단계적으로 일을 처리하는 방식입니다.   
 앞의 일이 한 시간이든 두 시간이든 처리할 동안은 들어온 일에만 집중해서 처리합니다. 
 
-> Asynchronous 비동기적 방식
+### Asynchronous 비동기적 방식
 어떤 일을 처리하는데 10시간이 걸린다고 하면, 이 일이 끝날 때까지 기다리는 것이 아니라 처리하는 동안에 다른 일을 동시에 처리하는 효율적인 방식입니다.   
 효율적이고 좋지만 그만큼 까다로운 코드 작성이 문제겠죠?   
 
@@ -38,13 +38,22 @@ fs.readFile('syntax/sample.txt', 'utf8', function(err, result){
 });
 console.log('C');
 ```
+```
+동기적 처리
+A
+B
+C
+```
+```
+비동기적 처리
+A
+C
+B
+```
 
-![image](https://user-images.githubusercontent.com/57790541/94782710-991c0f80-0406-11eb-9a10-e892da1e3e42.png)
-
-![image](https://user-images.githubusercontent.com/57790541/94782750-a3d6a480-0406-11eb-9886-f91aa0934304.png)
-
-* fs.readFile 이 처리되는 동안 `console.log('C');` 가 먼저 실행되고, 그 뒤로 result 결과인 B 가 출력됩니다. 
+* `fs.readFile` 이 처리되는 동안 `console.log('C');` 가 먼저 실행되고, 그 뒤로 result 결과인 B 가 출력됩니다. 
 * NodeJs 의 성능을 끌어올리기 위해서는 반드시 비동기적 방식으로 작업해야 합니다. 
+<br/>
 
 
 # 콜백 (Callback)
@@ -65,9 +74,9 @@ slowfunc(a);
 ```
 `var a` 는 익명 함수로 만들어져, a 값 자체가 함수 값입니다.   
 `slowfunc()` 에 a 를 넣으면 콜백 함수로 실행되면서 a 가 가리키는 함수를 실행하게 됩니다. 
+<br/>
 
 
 ***
-
 ## 참고
 * [생활코딩 Node.js](https://opentutorials.org/course/3332)

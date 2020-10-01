@@ -17,6 +17,7 @@ Web Application 을 구현하는 기본 방식은 URL 로, 같은 파일이지�
 
 * 쿼리 스트링의 값을 변경해 웹 서버에게 데이터를 전달할 수 있습니다.   
 * 쿼리 스트링은 '?' 로 시작하기로 약속되어 있고, '=' 으로 문자를 구분합니다. 
+<br/>
 
 
 # 동적인 웹 페이지 만들기 
@@ -39,10 +40,10 @@ var title = queryData.id;
   <h2>${title}</h2>
 ```
 웹 페이지의 타이틀은 쿼리 스트링에 따라서 동적으로 변경됩니다. 
+<br/>
 
 
 # Node.js 파일 읽기 기능 
-> C(create)R(read)U(update)D(delete)
 
 ```javascript
 var fs = require('fs');
@@ -50,6 +51,7 @@ fs.readFile('sample.txt', 'utf8', function(err, data){
   console.log(data);
 });
 ```
+<br/>
 
 
 # Node.js 파일 목록 알아내기
@@ -62,7 +64,10 @@ fs.readdir('./data', function(error, filelist){
   console.log(filelist);
 })
 ```
-![image](https://user-images.githubusercontent.com/57790541/94781087-53f6de00-0404-11eb-9383-c3b582b0f7fa.png)
+```
+출력 결과 : ['CSS', 'HTML', 'JavaScript']
+```
+<br/>
 
 
 # Not found 구현하기 
@@ -77,6 +82,7 @@ var pathname = url.parse(_url, true).pathname;
     response.end('Not found');
   }
 ```
+<br/>
 
 
 # Home 메인 페이지 구현하기 
@@ -94,9 +100,9 @@ if(pathname === '/') {
     response.end('Not found');
 }
 ```
+<br/>
 
 
 ***
-
 ## 참고
 * [생활코딩 Node.js](https://opentutorials.org/course/3332)
