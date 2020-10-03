@@ -48,12 +48,8 @@ Html 이 Web Application 으로 동작하기 위해서는 Web Brower 가 있어�
 지금부터 NodeJs Runtime 을 설치해봅시다. 
 
 
-1. [nodejs.org](http://nodejs.org/) 이동하기
+1. [nodejs.org](http://nodejs.org/) 이동하기 - 왼쪽과 오른쪽(최신 버전) 둘 다 사용하는데 문제없지만 왼쪽 버전이 좀 더 안정화된 버전이므로 다운로드합니다.
 ![image](https://user-images.githubusercontent.com/57790541/94774498-ff019a80-03f8-11eb-8761-c7b18df91b3f.png)
-
-
-왼쪽과 오른쪽(최신 버전) 둘 다 사용하는데 문제없지만 왼쪽 버전이 좀 더 안정화된 버전이므로 다운로드합니다.
-
 
 2. 다운로드 받은 파일 압축을 풀고 설치 진행하기
 ![image](https://user-images.githubusercontent.com/57790541/94774672-5869c980-03f9-11eb-8d98-61d4434c9acc.png)
