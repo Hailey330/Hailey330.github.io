@@ -66,7 +66,7 @@ Expo 에서는 Android 애뮬레이터를 실행할 수 있고 IOS 애뮬레이�
 ![image](https://user-images.githubusercontent.com/57790541/94999165-8bc37880-05f2-11eb-8447-f9e3466e2015.png)
 ![image](https://user-images.githubusercontent.com/57790541/94999262-43588a80-05f3-11eb-9162-7e9f9c539e4c.png)
 ![image](https://user-images.githubusercontent.com/57790541/94999289-61be8600-05f3-11eb-9ae6-ffb3c8ec784c.png)
-![image](https://user-images.githubusercontent.com/57790541/94999308-73079280-05f3-11eb-8288-9287c9ea4c78.png){: width="300" height="300"}
+![image](https://user-images.githubusercontent.com/57790541/94999308-73079280-05f3-11eb-8288-9287c9ea4c78.png){: width="600" height="600"}
 
 
 * 설치가 완료된 후에 Expo 로 돌아가 Android 애뮬레이터 실행하기
